@@ -11,6 +11,8 @@ npx create-next-app@latest my-app --example "https://github.com/gravity-ui/gravi
 After then, run the development server:
 
 ```bash
+cd my-app
+
 npm run dev
 # or
 yarn dev
