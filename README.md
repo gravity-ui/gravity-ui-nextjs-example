@@ -2,9 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, get the example app and install dependencies:
 
 ```bash
+npx create-next-app@latest my-app --example "https://github.com/gravity-ui/gravity-ui-example-nextjs"
+```
+
+After then, run the development server:
+
+```bash
+cd my-app
+
 npm run dev
 # or
 yarn dev
