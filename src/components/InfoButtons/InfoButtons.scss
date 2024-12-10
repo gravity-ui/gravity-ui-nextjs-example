@@ -1,4 +1,5 @@
 @use '../../styles/variables.scss' as variables;
+@use 'sass:map';
 
 $block: '.info-buttons';
 
@@ -28,7 +29,7 @@ $block: '.info-buttons';
         display: inline-block;
         margin: 0 4px;
 
-        @media (max-width: map-get(variables.$gridBreakpoints, 'md') - 1) {
+        @media (max-width: (map.get(variables.$gridBreakpoints, 'md') - 1)) {
             margin-top: 10px;
 
             &:first-child {
