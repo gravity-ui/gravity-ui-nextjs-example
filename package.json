@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@gravity-ui/icons": "^2.11.0",
+    "@gravity-ui/navigation": "^2.29.0",
     "@gravity-ui/uikit": "^6.38.0",
     "bem-cn-lite": "^4.1.0",
     "next": "^15.0.4",
